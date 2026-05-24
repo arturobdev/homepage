@@ -1,59 +1,49 @@
 <!doctype html>
 <html>
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <title>Résumé</title>
     <link rel="stylesheet" href="styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-  </head>
-  <body>
-    <main>
-      <div class="resume">
-        <div class="container">
-          <div class="resume__block">
-            <h1 class="contact-info__header">Blanco Arturo</h1>
-            <h3 class="contact-info__sub-header">Full-Stack Developer</h3>
+</head>
 
-            <div class="contact_info_container fh">
-              <div class="contact-info__block">
-              <!--linkedin --> 
-              <a
-                href="https://www.linkedin.com/in/blanco-arturo/"
-                rel="author"
-                class="contact-info__item"
-              >
-                <div class="contact-info__item-icon-wrapper">
-                  <svg
-                    class="contact-info__item-icon"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 448 512"
-                  >
-                    <path
-                      d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9
+<body>
+    <main>
+        <div class="resume">
+            <div class="container">
+                <div class="resume__block">
+                    <h1 class="contact-info__header">Blanco Arturo</h1>
+                    <h3 class="contact-info__sub-header">Full-Stack Developer</h3>
+                    <div class="contact_info_container fh">
+                        <div class="contact-info__block contact-info__block--center">
+                            <img class="contact-info__avatar" src="assets/avatar.png" alt="Avatar" />
+                        </div>
+                        <div class="contact-info__block">
+                            <!--linkedin -->
+                            <a href="https://www.linkedin.com/in/blanco-arturo/" rel="author"
+                                class="contact-info__item">
+                                <div class="contact-info__item-icon-wrapper">
+                                    <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 448 512">
+                                        <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9
         480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4
         416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9
         96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5
         38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9
         27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5
-        62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
-                    ></path>
-                  </svg>
-                </div>
-                <span>Arturo Blanco</span>
-              </a>
-              <!--github --> 
-                <a
-                  href="https://github.com/arturobdev"
-                  rel="author"
-                  class="contact-info__item"
-                >
-                  <div class="contact-info__item-icon-wrapper">
-                    <svg 
-                    class="contact-info__item-icon"
-                    xmlns="http://www.w3.org/2000/svg" 
-                    viewBox="0 0 448 512">
-                   <path 
-                   d="M448 96c0-35.3-28.7-64-64-64L64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 
+        62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path>
+                                    </svg>
+                                </div>
+                                <span>Arturo Blanco</span>
+                            </a>
+                            <!--github -->
+                            <a href="https://github.com/arturobdev" rel="author" class="contact-info__item">
+                                <div class="contact-info__item-icon-wrapper">
+                                    <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 448 512">
+                                        <path
+                                            d="M448 96c0-35.3-28.7-64-64-64L64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 
                    0c35.3 0 64-28.7 64-64l0-320zM265.8 407.7c0-1.8 0-6 .1-11.6 .1-11.4 .1-28.8 .1-43.7 
                    0-15.6-5.2-25.5-11.3-30.7 37-4.1 76-9.2 76-73.1 0-18.2-6.5-27.3-17.1-39 1.7-4.3 
                    7.4-22-1.7-45-13.9-4.3-45.7 17.9-45.7 17.9-26.6-7.5-56.6-7.5-83.2 0 0 0-31.8-22.2-45.7-17.9-9.1 
@@ -67,82 +57,160 @@
                     4.1-1.5c2 .6 3.3 2.1 2.8 3.4-.4 1.3-2.4 1.9-4.1 1.3zm-12.5-7.3c-1.5-1.3-1.9-3.2-.9-4.1 .9-1.1 2.8-.9 
                     4.3 .6 1.3 1.3 1.8 3.3 .9 4.1-.9 1.1-2.8 .9-4.3-.6zm-8.5-10c-1.1-1.5-1.1-3.2 0-3.9 1.1-.9 2.8-.2 3.7 
                     1.3 1.1 1.5 1.1 3.3 0 4.1-.9 .6-2.6 0-3.7-1.5zm-6.3-8.8c-1.1-1.3-1.3-2.8-.4-3.5 .9-.9 2.4-.4 3.5 .6
-                     1.1 1.3 1.3 2.8 .4 3.5-.9 .9-2.4 .4-3.5-.6zm-6-6.4c-1.3-.6-1.9-1.7-1.5-2.6 .4-.6 1.5-.9 2.8-.4 1.3 .7 1.9 1.8 1.5 2.6-.4 .9-1.7 1.1-2.8 .4z"/>
-                    </svg>
-                  </div>
-                  <span>arturobdev</span>
-                </a>
-                <!--telegram-->
-                <a href="" rel="author" class="contact-info__item">
-                  <div class="contact-info__item-icon-wrapper">
-                    <svg 
-                    class="contact-info__item-icon"
-                    xmlns="http://www.w3.org/2000/svg" 
-                    viewBox="0 0 512 512">
-                    <path 
-                    d="M256 8a248 248 0 1 0 0 496 248 248 0 1 0 
+                     1.1 1.3 1.3 2.8 .4 3.5-.9 .9-2.4 .4-3.5-.6zm-6-6.4c-1.3-.6-1.9-1.7-1.5-2.6 .4-.6 1.5-.9 2.8-.4 1.3 .7 1.9 1.8 1.5 2.6-.4 .9-1.7 1.1-2.8 .4z" />
+                                    </svg>
+                                </div>
+                                <span>arturobdev</span>
+                            </a>
+                            <!--telegram-->
+                            <a href="" rel="author" class="contact-info__item">
+                                <div class="contact-info__item-icon-wrapper">
+                                    <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 512 512">
+                                        <path d="M256 8a248 248 0 1 0 0 496 248 248 0 1 0 
                     0-496zM371 176.7c-3.7 39.2-19.9 134.4-28.1 178.3-3.5 
                     18.6-10.3 24.8-16.9 25.4-14.4 1.3-25.3-9.5-39.3-18.7-21.8-14.3-34.2-23.2-55.3-37.2-24.5-16.1-8.6-25 
                     5.3-39.5 3.7-3.8 67.1-61.5 68.3-66.7 .2-.7 .3-3.1-1.2-4.4s-3.6-.8-5.1-.5c-2.2 .5-37.1 23.5-104.6 
                     69.1-9.9 6.8-18.9 10.1-26.9 9.9-8.9-.2-25.9-5-38.6-9.1-15.5-5-27.9-7.7-26.8-16.3 .6-4.5 6.7-9 
                     18.4-13.7 72.3-31.5 120.5-52.3 144.6-62.3 68.9-28.6 83.2-33.6 92.5-33.8 2.1 0 6.6 .5 9.6 2.9 
-                    2 1.7 3.2 4.1 3.5 6.7 .5 3.2 .6 6.5 .4 9.8z"/>
-                </svg>
-                    </svg>
-                  </div>
-                  <span>@BlancoArturoA</span>
-                </a>
-                <!--phone-->
-                <a href="" rel="author" class="contact-info__item">
-                  <div class="contact-info__item-icon-wrapper">
-                    <svg 
-                        class="contact-info__item-icon"
-                        xmlns="http://www.w3.org/2000/svg" 
-                        viewBox="0 0 512 512">
-                        <path 
-                        d="M160.2 25C152.3 6.1 131.7-3.9 112.1 1.4l-5.5 1.5c-64.6 17.6-119.8 80.2-103.7 
+                    2 1.7 3.2 4.1 3.5 6.7 .5 3.2 .6 6.5 .4 9.8z" />
+                                    </svg>
+                                    </svg>
+                                </div>
+                                <span>@BlancoArturoA</span>
+                            </a>
+                            <!--phone-->
+                            <a href="" rel="author" class="contact-info__item">
+                                <div class="contact-info__item-icon-wrapper">
+                                    <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 512 512">
+                                        <path d="M160.2 25C152.3 6.1 131.7-3.9 112.1 1.4l-5.5 1.5c-64.6 17.6-119.8 80.2-103.7 
                         156.4 37.1 175 174.8 312.7 
                         349.8 349.8 76.3 16.2 138.8-39.1 
                         156.4-103.7l1.5-5.5c5.4-19.7-4.7-40.3-23.5-48.1l-97.3-40.5c-16.5-6.9-35.6-2.1-47 
                         11.8l-38.6 47.2C233.9 335.4 177.3 277 144.8 205.3L189 
-                        169.3c13.9-11.3 18.6-30.4 11.8-47L160.2 25z"/>
-                    </svg>
-                    </svg>
-                  </div>
-                  <span>+5492901584422</span>
-                </a>
-                <!--location --> 
-                <a href="" rel="author" class="contact-info__item">
-                <div class="contact-info__item-icon-wrapper">
-                  <svg
-                    class="contact-info__item-icon"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 384 512"
-                  >
-                    <path
-                      d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0
+                        169.3c13.9-11.3 18.6-30.4 11.8-47L160.2 25z" />
+                                    </svg>
+                                    </svg>
+                                </div>
+                                <span>+5492901584422</span>
+                            </a>
+                            <!--location -->
+                            <a href="" rel="author" class="contact-info__item">
+                                <div class="contact-info__item-icon-wrapper">
+                                    <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 384 512">
+                                        <path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0
         192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535
         13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817
-        80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"
-                    ></path>
-                  </svg>
+        80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path>
+                                    </svg>
+                                </div>
+                                <span>Corrientes, Argentina</span>
+                            </a>
+                        </div>
+                        
+                    </div>
                 </div>
-                <span>Corrientes, Argentina</span>
-              </a>
-              </div>
-              <div class="contact-info__block">
-              </div>
-              <div class="contact-info__block contact-info__block--center">
-                <img
-                  class="contact-info__avatar"
-                  src="assets/avatar.png"
-                  alt="Avatar"
-                />
-              </div>
+                <div class="resume__block fh">
+                    <div class="additional-info fh">
+                    <div class="additional-info__technical__skills">
+                        <h3 class="skills__header">Technical Skills</h3>
+                        <div class="additional-info__skills__content">
+                        <ul class="skills__content">
+                            <li>React</li>
+                            <li>Next.js</li>
+                            <li>Node.js</li>
+                            <li>NestJS</li>
+                            <li>MongoDB</li>
+                            <li>SQL</li>
+                            <li>Git</li>
+                        </ul>
+                        </div>
+                        </div>
+                    <div class="additional-info__soft__skills">
+                        <h3 class="skills__header">Soft Skills</h3>
+                        <div class="additional-info__skills__content">
+                        <ul class="skills__content">
+                            <li>Leadership</li>
+                            <li>Communication</li>
+                            <li>Problem Solving</li>
+                        </ul>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="resume__block">
+                    <div class="main-info fh">
+                        <div class="experiences">
+                            <h3 class="experiences__header">Experience</h3>
+                            <div class="experiences__company">
+                                <div class="experiences__company-header">
+                                    <span class="experiences__company-header-durability">2024-2025</span>
+                                    <h3 class="experiences__company-header-name">Yamana TECH</h3>
+                                </div>
+                                <div class="experiences__company-project">
+                                    <span class="experiences__company-project-role">Full-Stack Developer</span>
+                                    <h3 class="experiences__company-project-name">Human Resources application focused on
+                                        the
+                                        government environment</h3>
+                                    <ul class="experiences__company-project-responsibilities">
+                                        <li>Backend Architecture</li>
+                                        <li>Frontend Development</li>
+                                        <li>API Integration</li>
+                                        <li>Code Maintenance</li>
+                                        <li>Security and authorization implementation</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="experiences__company">
+                                <div class="experiences__company-header">
+                                    <span class="experiences__company-header-durability">2025-2026</span>
+                                    <h3 class="experiences__company-header-name">Yamana TECH</h3>
+                                </div>
+                                <div class="experiences__company-project">
+                                    <span class="experiences__company-project-role">Tech Leader</span>
+                                    <h3 class="experiences__company-project-name">Human Resources application focused on
+                                        the
+                                        government environment</h3>
+                                    <ul class="experiences__company-project-responsibilities">
+                                        <li>Task assignment</li>
+                                        <li>Task validation</li>
+                                        <li>Deployment</li>
+                                        <li>Team support</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="additional-info fv">
+                            <div class="additional-info__education">
+                                <h3 class="additional-info__education-header">Education</h3>
+                                <div class="additional-info__education-university">
+                                    <span class="additional-info__education-university-durability"> 2022–2023 </span>
+                                    <h3 class="additional-info__education-university-speciality">Full-Stack Development
+                                    </h3>
+                                    <p class="additional-info__education-university-name">CEPIT (Cluster Tecnológico
+                                        Tandil)</p>
+                                </div>
+                                <div class="additional-info__education-university">
+                                    <span class="additional-info__education-university-durability"> 2023 </span>
+                                    <h3 class="additional-info__education-university-speciality">Full-Stack Development
+                                        Training
+                                    </h3>
+                                    <p class="additional-info__education-university-name">Alkemy</p>
+                                </div>
+                            </div>
+                            <div class="additional-info__languages">
+                                <h3 class="additional-info__languages-header">Languages</h3>
+                                <p class="additional-info__languages-item">Spanish</p>
+                                <p class="additional-info__languages-item">English</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </main>
-  </body>
+</body>
+
 </html>
